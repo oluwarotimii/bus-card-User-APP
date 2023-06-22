@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import MainStyles from '../styles/MainStyles';
+import Carousel from '../components/onboardComponent';
 
 
 const SignUp = () => {
@@ -11,7 +12,8 @@ const SignUp = () => {
                 <View style={MainStyles.ArtPic}></View>
                 <View style={MainStyles.SignIn}>
                     <TouchableOpacity style={MainStyles.SigninBtn}>
-                        <Text style={MainStyles.SignInText}> Sign In</Text>
+                        {/* <Text style={MainStyles.SignInText}> Sign In</Text> */}
+                        <Carousel />
                     </TouchableOpacity>
                 </View>
                 <View style={MainStyles.AltContainer}>

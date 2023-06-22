@@ -4,9 +4,9 @@
  *
  * @format
  */
-
-import 'react-native-gesture-handler';
+   
 import React from 'react';
+import 'react-native-gesture-handler';
 import {
   SafeAreaView,
   ScrollView,
@@ -25,17 +25,16 @@ import { NavigationContainer } from '@react-navigation/native';
 import BottomTabBar from './src/navigation/bottomTab';
 import CardsPage from './src/screens/CardsPage';
 import MyStack from './src/navigation/PrimaryStack';
-
+import IntroStack from './src/navigation/introStack';
+import Onboard from './src/screens/Onboarding';
+import Carousel from   './src/components/onboardComponent';
+import Cards  from './src/screens/cards/cards';
+import NoCardComponent from './src/components/noCards';
 
 const App = () => {
   return (
     <NavigationContainer>
-      
-        {/* <Text>HI</Text> */}
-        <View>
-        <CardsPage />
-        </View>
-      
+        <Cards />
     </NavigationContainer>
   )
 };

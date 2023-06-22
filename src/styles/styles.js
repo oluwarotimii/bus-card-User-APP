@@ -111,6 +111,42 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: 'bold'
     },
+    // IconCtn:{
+    //     // marginTop: height * 0.05,
+    //     borderColor: Colors.Shadow,
+    // },
+    BtnContainer:{
+        marginTop: height * 0.01,
+        height: height * 0.10,
+        width: width * 0.8,
+        // borderColor: Colors.Shadow,
+        // borderWidth: 2,
+        flexDirection: 'row',
+        alignSelf: 'center',
+        justifyContent: 'space-evenly',
+      },
+      CardBtn:{
+        borderColor: Colors.Shadow,
+        // borderWidth: 2,
+        marginHorizontal: width * 0.001,
+        height: height * 0.07,
+        width: width * 0.01,
+        paddingHorizontal: width * 0.07,
+        paddingVertical: height * 0.01,
+        backgroundColor: Colors.Mustard,
+        borderRadius:30,
+        justifyContent: 'center',
+        flexDirection: 'column',
+      },
+      BtnBox:{
+        flexDirection:'column',
+        // flex: 'space-evenly',
+      },
+      cardLabel: {
+        flexDirection: 'column',
+        fontSize: 13,
+        fontWeight: 'bold',
+      },
 
 })
 export default styles;

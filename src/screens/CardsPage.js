@@ -24,22 +24,44 @@ const CardsPage = () => {
 
             </View>
             <View style={styles.MainContainer}>
-                <Text style={styles.Text}>Manage Yor Card Here</Text>
+                <Text style={styles.Text}>Cards</Text>
                 <Card />
-                <View>
-                    <Text> Deactivate Card</Text>
+                <View style={styles.BtnContainer}>
+                    <View style={styles.BtnBox}>
+                        <TouchableOpacity style={styles.CardBtn}>
+                            <View styles={styles.IconCtn}>
+                                <Icons name="wallet" size={10} color={Colors.White} />
+                            </View>
+                            {/* <Text style={{color: Colors.White, fontSize: 35, alignSelf: 'center',}}>  </Text> */}
+                        </TouchableOpacity>
+                        <Text style={styles.cardLabel}> Create Card</Text>
+                    </View>
+
+                    <View style={styles.BtnBox}>
+                        <TouchableOpacity style={styles.CardBtn}>
+                            <View styles={styles.IconCtn}>
+                                <Icons name="wallet" size={10} color={Colors.White} />
+                            </View>
+                            {/* <Text style={{color: Colors.White, fontSize: 35, alignSelf: 'center',}}>  </Text> */}
+                        </TouchableOpacity>
+                        <Text style={styles.cardLabel}> Deactivate</Text>
+                    </View>
+
+                    <View style={styles.BtnBox}>
+                        <TouchableOpacity style={styles.CardBtn}>
+                            <View styles={styles.IconCtn}>
+                                <Icons name="wallet" size={10} color={Colors.White} />
+                            </View>
+                            {/* <Text style={{color: Colors.White, fontSize: 35, alignSelf: 'center',}}>  </Text> */}
+                        </TouchableOpacity>
+                        <Text style={styles.cardLabel}> Delete Card</Text>
+                    </View>
+
                 </View>
                 <View style={{
                     marginTop: height * 0.01,
                     borderWidth: 2,
                 }} />
-                <Card />
-                <View style={{
-                    marginTop: height * 0.01,
-                    borderWidth: 2,
-                }} />
-               
-                <Card />
             </View>
         </ScrollView>
     )

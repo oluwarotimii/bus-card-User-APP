@@ -59,7 +59,8 @@ const cardStyles = StyleSheet.create({
     marginTop: height * 0.0006,
     marginLeft: width * 0.005,
   },
-  ServiceName:{}
+  ServiceName:{},
+
 
 });
 
