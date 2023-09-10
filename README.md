@@ -2,7 +2,7 @@
 
 Welcome to the Bus Card User Application, a user-friendly mobile app designed to simplify your bus card management experience. This application works seamlessly with the Tripa backend to provide a comprehensive solution for handling bus card payments and transactions.
 
-![Bus Card App](app_screenshot.png)
+
 
 ## Features
 
