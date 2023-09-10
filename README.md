@@ -37,6 +37,15 @@ To use the Bus Card User Application, follow these steps:
 - **Flutterwave**: Integration with Flutterwave's payment gateway API ensures secure and reliable payment processing.
   # Bus Card User Application
 
+
+## Screenshots
+
+![Screenshot 1](snips/IMG-20230723-WA0008.jpg)
+![Screenshot 2](snips/IMG-20230723-WA0009.jpg)
+![Screenshot 3](snips/IMG-20230723-WA0010.jpg)
+![Screenshot 4](snips/IMG-20230723-WA0011.jpg)
+![Screenshot 5](snips/IMG-20230723-WA0012.jpg)
+
 ...
 
 ## Not Currently Up to date
